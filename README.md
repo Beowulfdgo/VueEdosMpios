@@ -1,2 +1,2 @@
 # VueEdosMpios
-Dropbox Realizado con Vue para estados y municipios en México
+Select box filtrado Realizado con Vue para estados y municipios en México
