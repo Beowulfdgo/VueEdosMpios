@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<head>
+	<title>Mexico</title>
+</head>
+
+<body>
+    <div id="app">
+        <h1><center>estados y municipios de mexico</center></h1>
+        <select v-model="selected">
+        <option v-for="estado in estados" v-bind:value="estado.descripcion">
+            {{ estado.descripcion }}
+        </option>
+        </select>
+        
+    
+        <select>
+        <option v-for="mun in municipios[selected]" >
+            {{ mun }}
+        </option>
+        </select>
+    
+    </div>
+    
+<script type="text/javascript" src="js/vue.js"></script>
+ 
+    <script src="js/ejercicioestado.js"></script>
+</body>
+</html>
